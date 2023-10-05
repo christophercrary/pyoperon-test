@@ -1,0 +1,28 @@
+name: pyoperon-test
+channels:
+  - conda-forge
+dependencies:
+  - colorama=0.4.*
+  - cmake=3.26.*
+  - doctest=2.4.*
+  - eigen=3.4.*
+  - git=2.40.*
+  - gxx_linux-64=12.2.*
+  - ninja=1.11.*
+  - numba=0.57.*
+  - pandas=2.0.*
+  - pathos=0.3.*
+  - pkg-config=0.29.*
+  - pip=23.0.*
+  - pybind11=2.10.*
+  - pyyaml=6.0.*
+  - scikit-build=0.16.*
+  - scikit-learn=1.2.*
+  - scipy=1.11.*
+  - taskflow=3.5.*
+  - pip:
+    - ipykernel==6.22.*
+    - Markdown==3.4.*
+    - matplotlib==3.7.*
+    - pmlb==1.0.*
+    - xlsxwriter==3.0.*
